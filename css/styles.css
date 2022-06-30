@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    text-align: center;
+}
+#search {
+    height:50px;
+    width: 35rem;
+    margin: 25px;
+    
+}
+
+    .wrapper { 
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px 220px;
+    grid-row-gap: 20px;
+    grid-column-gap: 1rem;
+}
+
+
+#title {
+    display: grid;
+}
