@@ -17,3 +17,4 @@
  *  Add this into your app.js file:
  *   const search = new Filter('search', 'data-caption');
  */
+
