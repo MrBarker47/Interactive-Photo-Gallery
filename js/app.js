@@ -17,8 +17,15 @@ const itemList = [
 
 ];
 
+function searchPhoto() {
+    let searchBar = document.getElementById("search").addEventListener("search").value;
+    
 
-let searchBar = document.getElementById("search").addEventListener("keyup");
+}
+
+
+
+
 
 
 
