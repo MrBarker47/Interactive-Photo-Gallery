@@ -19,7 +19,7 @@ const itemList = [
 
 function searchPhoto() {
     let searchBar = document.getElementById("search").addEventListener("search").value;
-    
+    let searchPhoto = search.getAttribute("data-caption");
 
 }
 
