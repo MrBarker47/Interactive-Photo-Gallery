@@ -18,7 +18,13 @@
  *   const search = new Filter('search', 'data-caption');
  */
 
-const itemList = [
+
+
+
+
+
+
+ const itemList = [
     "Hay Bales",
     "Lake",
     "Canyon",
@@ -27,22 +33,24 @@ const itemList = [
     "Fall",
     "Plantation",
     "Dunes",
-    "Countryside Lane",
+    "CountrySide Lane",
     "Sunset",
     "Cave",
-    "Bluebells"
+    "Bluebells",
+
 ];
 
 
-let searchBox = document.querySelector('#search');
-let image = document.querySelectorAll('.container .wrapper ');
+
+// let searchBox = document.querySelector('#search');
+// let image = document.querySelectorAll('.container .wrapper ');
 
 
-search.oninput = () => {
-    image.forEach(hide => hide.style.display = 'none');
-    let value = search.value;
-    image.forEach(filter => {
-        let caption = filter.getAttribute('search','data-caption');
-    });
-};
+// search.oninput = () => {
+//     image.forEach(hide => hide.style.display = 'none');
+//     let value = search.value;
+//     image.forEach(filter => {
+//         let caption = filter.getAttribute('search','data-caption');
+//     });
+// };
 
